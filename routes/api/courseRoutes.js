@@ -5,7 +5,7 @@ const {
   createCourse,
   updateCourse,
   deleteCourse,
-} = require('../../controllers/courseController.js');
+} = require('../../controllers/userControllers.js');
 
 // /api/courses
 router.route('/').get(getCourses).post(createCourse);
