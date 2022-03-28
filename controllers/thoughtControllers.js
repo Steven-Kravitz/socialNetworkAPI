@@ -27,7 +27,7 @@ module.exports = {
   createThought({
     body
   }, res) {
-    Thought.create(body)
+    Thought.create({body})
       .then(({
         username,
         _id

@@ -10,7 +10,7 @@ module.exports = {
   // Get a User
   getSingleUser(req, res) {
     User.findOne({
-        _id: req.params.UserId
+        _id: req.params.userId
       })
       .select('-__v')
       .then((userInfo) =>
@@ -34,7 +34,7 @@ module.exports = {
   // Delete a User
   deleteUser(req, res) {
     User.findOneAndDelete({
-        _id: req.params.UserId
+        _id: req.params.userId
       })
       .then((userInfo) =>
         !userInfo ?
@@ -55,7 +55,7 @@ module.exports = {
   // Update a User
   updateUser(req, res) {
     User.findOneAndUpdate({
-        _id: req.params.UserId
+        _id: req.params.userId
       }, {
         $set: req.body
       }, {

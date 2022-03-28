@@ -1,8 +1,7 @@
 # Social Network Api
   
   ## Description
-Placeholder  
-
+This application replicates the backend processes of a social network running on MongoDB. It tracks users, their friends, their thoughts, and their reactions.
 ## Table of Contents
 
 - [Installation](#installation)
@@ -12,16 +11,23 @@ Placeholder
 - [Features](#features)
 
 ## Installation
-Placeholder
+Git Clone the repo to your local machine
 
 ## Usage
-Placeholder
+Open your integrated terminal and run ```npm i``` to install any dependencies. Run ```npm run start``` to start the server. At which point you can track the app through MongoDB compass or Insomnia.
 
 ## License
 This project is licensed under the MIT license.
 
 ## Features
-Placeholder
+Create, Read, Update, and Delete User and Thought Data through insomnia or a MongoDB shell.
+
+![Homepage](/assets/dbDisplayUsers.png)
+![Login](/assets/dbDisplayThoughts.png)
+![Post](/assets/getUser.png)
+![Post](/assets/getSingleUser.png)
+
+[Video Walkthrough](https://www.youtube.com/watch?v=qPPAVFIIAoI)
 
 ## How to Contribute
 <details>
@@ -159,11 +165,8 @@ For answers to common questions about this code of conduct, see the FAQ at
 
 </details>
 
-## Tests
-Placeholder
-
 ## Credits
-Trinity Education Services for the code layout
+Trinity Education Services for the code layout, npm express for the server management, npm mongoose, MongoDB, and Insomnia
 
 ## Questions
 
